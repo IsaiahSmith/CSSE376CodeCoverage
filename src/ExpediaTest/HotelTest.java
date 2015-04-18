@@ -101,8 +101,6 @@ public class HotelTest
         // FIXME: what is the EasyMock equivalent, if any?
         //EasyMock.expect(mockDB.Rooms).PropertyBehavior();
 
-        EasyMock.replay(mockDB);
-
         mockDB.Rooms = Rooms;
 
 
