@@ -117,6 +117,7 @@ public class HotelTest
     
     @Test
 	public void TestGetMiles(){
+		Hotel target = new Hotel(5);
 		assertEquals(0, target.getMiles());
 	}
 }
